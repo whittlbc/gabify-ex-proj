@@ -1,0 +1,14 @@
+dataset:
+  path: https://s3-us-west-1.amazonaws.com/jarvisdev/glimpse/dataset-100.hdf5
+  update_with: src.dataset.update
+  retrain_after: 100
+
+model: data/model.ckpt
+
+train:
+- python train.py
+
+test:
+- python test.py
+
+predict: src.model.predict
