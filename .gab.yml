@@ -1,5 +1,5 @@
 dataset:
-  location: https://s3-us-west-1.amazonaws.com/jarvisdev/glimpse/dataset-100.hdf5
+  location: https://s3-us-west-1.amazonaws.com/jarvisdev/glimpse/fake-dataset.hdf5
   update_with: src.dataset.update
   retrain_after: 100
 
